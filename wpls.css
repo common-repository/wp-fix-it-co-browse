@@ -1,0 +1,30 @@
+
+#lc_chat_layout #lc_chat_header.lc-dark-icon {
+    background: none !important;
+}
+
+span#lc_chat_title {
+    display: none;
+}
+#lc_chat_layout #lc_chat_header {
+    color: #000000;
+    background-color: #e99d3a;
+    background: transparent;
+    height: 91px;
+    border: 0px;
+}
+#lc_chat_layout.lc-expanded #lc_chat_header.lc-dark-icon {
+    background-image: url(images/WPFI-LSB.png) !important;
+    background-repeat: no-repeat;
+    background-color: #fff!important;
+    }
+#lc_chat_layout.lc-collapsed {
+    height: 43px;
+    background-image: url(images/WPFI-LSB.png) !important;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    height: 91px !important;
+}
+span#lc_minimize {
+    display: none;
+}
